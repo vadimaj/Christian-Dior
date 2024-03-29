@@ -30,7 +30,11 @@ const SliderCenter = () => {
         ))}
       </swiper-container>
       <div className=" ml-[-200px]">
-        <SliderNavButtons onNextSlide={handleNext} onPrevSlide={handlePrev} />
+        <SliderNavButtons
+          onNextSlide={handleNext}
+          onPrevSlide={handlePrev}
+          className="hover:fill-accent transition-color duration-[250ms]"
+        />
       </div>
     </div>
   );

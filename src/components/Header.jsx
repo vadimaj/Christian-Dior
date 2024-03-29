@@ -1,12 +1,11 @@
+import Logo from '../ui/Logo';
 import Icon from './icons/Icon';
 const Header = () => {
   return (
     <header className="mb-[90px]">
       <div className="container mx-auto">
         <div className="header-inner flex pt-7 justify-between">
-          <a href="#">
-            <Icon id="logo" width="120" height="50" />
-          </a>
+          <Logo className="hover:fill-accent transition-colors duration-[250ms]" />
           <h3 className="font-secondary uppercase ml-auto">
             LA COLLECTION PRIVÉE CHRISTIAN DIOR
           </h3>
@@ -43,12 +42,22 @@ const Header = () => {
             <ul className="user-nav flex gap-x-5">
               <li>
                 <a href="#">
-                  <Icon id="favorites" width="24" height="24" />
+                  <Icon
+                    id="favorites"
+                    width="24"
+                    height="24"
+                    className="hover:fill-accent transition-all hover:scale-110 duration-[250ms]"
+                  />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <Icon id="cart" width="24" height="24" />
+                  <Icon
+                    id="cart"
+                    width="24"
+                    height="24"
+                    className="hover:fill-accent transition-all hover:scale-110 duration-[250ms]"
+                  />
                 </a>
               </li>
             </ul>

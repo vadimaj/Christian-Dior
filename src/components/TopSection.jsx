@@ -63,7 +63,11 @@ const TopSection = () => {
         </swiper-slide>
       </swiper-container>
       <div className="container mx-auto">
-        <SliderNavButtons onNextSlide={handleNext} onPrevSlide={handlePrev} />
+        <SliderNavButtons
+          onNextSlide={handleNext}
+          onPrevSlide={handlePrev}
+          className="hover:fill-accent transition-color duration-[250ms]"
+        />
       </div>
     </div>
   );
