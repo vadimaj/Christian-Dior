@@ -5,7 +5,7 @@ const AccordionSection = () => {
   return (
     <div className="accordion mb-[150px]">
       <div className="container mx-auto">
-        <div className="accordion__inner pl-[200px]">
+        <div className="accordion__inner pl-[203px]">
           <Accordion data={data} />
         </div>
       </div>

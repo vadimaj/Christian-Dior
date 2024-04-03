@@ -1,6 +1,17 @@
 import Logo from '../ui/Logo';
 import Icon from './icons/Icon';
+import navMenu from '../data/navMenu.json';
 const Header = () => {
+  const userMenu = [
+    {
+      iconId: 'favorites',
+      width: '24',
+      height: '24',
+      url: '#',
+    },
+    { iconId: 'cart', width: '24', height: '24', url: '#' },
+  ];
+
   return (
     <header className="mb-[90px]">
       <div className="container mx-auto">
@@ -11,55 +22,32 @@ const Header = () => {
           </h3>
           <nav>
             <ul className="menu mr-[185px] ml-[130px]">
-              <li>
-                <a className="uppercase text-xs mb-2.5" href="#">
-                  women's fragrance
-                </a>
-              </li>
-              <li>
-                <a className="uppercase text-xs mb-2.5" href="#">
-                  men's fragrance
-                </a>
-              </li>
-              <li>
-                <a className="uppercase text-xs mb-2.5" href="#">
-                  makeup
-                </a>
-              </li>
-              <li>
-                <a className="uppercase text-xs mb-2.5" href="#">
-                  skincare
-                </a>
-              </li>
-              <li>
-                <a className="uppercase text-xs mb-2.5" href="#">
-                  dior spa
-                </a>
-              </li>
+              {navMenu.map(({ title, url, id }) => (
+                <li
+                  key={id}
+                  className="hover:text-accent transition-color duration-[250ms]"
+                >
+                  <a className="uppercase text-xs mb-2.5" href={url}>
+                    {title}
+                  </a>
+                </li>
+              ))}
             </ul>
           </nav>
           <div>
             <ul className="user-nav flex gap-x-5">
-              <li>
-                <a href="#">
-                  <Icon
-                    id="favorites"
-                    width="24"
-                    height="24"
-                    className="hover:fill-accent transition-all hover:scale-110 duration-[250ms]"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <Icon
-                    id="cart"
-                    width="24"
-                    height="24"
-                    className="hover:fill-accent transition-all hover:scale-110 duration-[250ms]"
-                  />
-                </a>
-              </li>
+              {userMenu.map(({ iconId, url, height, width }) => (
+                <li key={iconId}>
+                  <a href={url}>
+                    <Icon
+                      className="hover:fill-accent transition-all hover:scale-110 duration-[250ms]"
+                      id={iconId}
+                      width={width}
+                      height={height}
+                    />
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

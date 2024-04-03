@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply font-primary font-normal text-primary text-sm;
-}
-
 /* inter-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -30,4 +26,20 @@ body {
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/playfair-display-v37-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  @apply font-primary font-normal text-primary text-sm;
+}
+
+@layer components {
+  .autofill-text:-webkit-autofill {
+    -webkit-text-fill-color: #1b1b1b;
+  }
+
+  .text-input {
+    @apply autofill-text; /* set text colour (primary default color) */
+    @apply autofill:shadow-[inset_0_0_0px_1000px_#C4A9CD]; /* set 'background' to secondary background color*/
+    @apply autofill:text-sm; /* set font size */
+  }
 }

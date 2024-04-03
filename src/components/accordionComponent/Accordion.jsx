@@ -16,6 +16,7 @@ const Accordion = ({ data }) => {
           key={index}
           title={item.title}
           text={item.text}
+          description={item.description}
           isOpen={activeIndex === index}
           onClick={() => handleItemClick(index)}
         />

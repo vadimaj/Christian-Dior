@@ -20,7 +20,7 @@ const TopSection = () => {
       <swiper-container loop={true} ref={swiperRef}>
         <swiper-slide>
           <div className="top-slide ">
-            <div className="container mx-auto">
+            <div className="container mx-auto ">
               <div className="top-slide__inner min-h-[750px] grid  grid-cols-[max-content_183px_max-content] grid-rows-[auto_187px] justify-between">
                 <img className="self-end" src={image01} alt="slide01" />
                 <div className="top-slide__content self-end">

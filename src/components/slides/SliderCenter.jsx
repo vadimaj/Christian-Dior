@@ -15,7 +15,7 @@ const SliderCenter = () => {
   }, [swiperRef]);
 
   return (
-    <div className="mb-5 first-letter:outline-dashed outline-2 outline-orange-400">
+    <div className="mb-5">
       <swiper-container
         loop="true"
         freeMode="true"
