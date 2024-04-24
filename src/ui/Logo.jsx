@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 import Icon from '../components/icons/Icon';
 
-const Logo = ({ className }) => {
+const Logo = ({ className, linkClassName = '' }) => {
   return (
-    <a href="#">
-      <Icon id="logo" width="120" height="50" className={className} />
+    <a href="#" className={linkClassName}>
+      <Icon id="logo" className={className} />
     </a>
   );
 };

@@ -2,33 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-/* inter-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/inter-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/inter-v13-latin-regular.woff2') format('woff2');
 }
-/* inter-700 - latin */
+
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/inter-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/inter-v13-latin-700.woff2') format('woff2');
 }
 
-/* playfair-display-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/playfair-display-v37-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/playfair-display-v37-latin-regular.woff2') format('woff2');
 }
 
-body {
+/* body {
   @apply font-primary font-normal text-primary text-sm;
 }
 
@@ -38,8 +36,8 @@ body {
   }
 
   .text-input {
-    @apply autofill-text; /* set text colour (primary default color) */
-    @apply autofill:shadow-[inset_0_0_0px_1000px_#C4A9CD]; /* set 'background' to secondary background color*/
-    @apply autofill:text-sm; /* set font size */
+    @apply autofill-text;
+    @apply autofill:shadow-[inset_0_0_0px_1000px_#C4A9CD];
+    @apply autofill:text-sm;
   }
-}
+} */

@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+
   theme: {
     container: {
       padding: {
@@ -8,6 +9,7 @@ export default {
       },
     },
     screens: {
+      xsm: { max: '640px' },
       sm: '640px',
       md: '768px',
       lg: '960px',
@@ -17,7 +19,6 @@ export default {
       primary: ['Inter', 'sans-serif'],
       secondary: 'Playfair Display',
     },
-
     extend: {
       colors: {
         primary: {
@@ -30,10 +31,6 @@ export default {
           secondary: ' #C4A9CD',
           hover: '#b88c5d',
         },
-      },
-      backgroundImage: {
-        hero: 'url(./src/images/bg.jpg)',
-        grid: 'url(/images/grid.png)',
       },
     },
   },

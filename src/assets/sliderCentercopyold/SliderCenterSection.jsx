@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import SliderCenter from './slides/SliderCenter';
-import Button from '../ui/Button';
+import SliderCenter from './SliderCenter';
+import Button from '../../../ui/Button';
 
 const SliderCenterSection = () => {
   return (

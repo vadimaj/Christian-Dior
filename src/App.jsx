@@ -1,23 +1,26 @@
 import AboutSection from './components/AboutSection';
-import Header from './components/Header';
-import SliderCenterSection from './components/SliderCenterSection';
-import TopSection from './components/TopSection';
+import Header from './components/header/Header';
+import SliderCenterSection from './components/sliderCenter/SliderCenterSection';
+import TopSection from './components/hero/TopSection';
 import AccordionSection from './components/AccordionSection';
 import Products from './components/productsSection/Products';
 import Footer from './components/FooterSection/Footer';
-import VideoSection from './components/videoSection/videoSection';
+
+import { MenuProvider } from './context/menuProvider';
 
 function App() {
   return (
     <>
-      <Header />
+      <MenuProvider>
+        <Header />
+      </MenuProvider>
       <TopSection />
       <AboutSection />
       <SliderCenterSection />
-      <AccordionSection />
+      {/*<AccordionSection />
       <Products />
       <VideoSection />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
