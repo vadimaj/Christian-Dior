@@ -1,6 +1,6 @@
 const AboutSection = () => {
   return (
-    <section className="about mb-[150px]">
+    <section className="about mb-[75px] md:mb-[150px]">
       <div className="container mx-auto">
         <div className="flex flex-col gap-4 sm:grid sm:gap-x-5 sm:grid-cols-2 lg:grid-cols-6  ">
           <div className="flex flex-col gap-4 sm:gap-5 lg:grid lg:gap-5 lg:grid-cols-2 lg:grid-rows-[auto,minmax(0,_1fr)] lg:col-start-2 lg:col-span-2 ">

@@ -2,9 +2,10 @@ import AboutSection from './components/AboutSection';
 import Header from './components/header/Header';
 import SliderCenterSection from './components/sliderCenter/SliderCenterSection';
 import TopSection from './components/hero/TopSection';
-import AccordionSection from './components/AccordionSection';
+import AccordionSection from './components/accordion/AccordionSection';
 import Products from './components/productsSection/Products';
 import Footer from './components/FooterSection/Footer';
+import VideoSection from './components/videoSection/VideoSection';
 
 import { MenuProvider } from './context/menuProvider';
 
@@ -17,10 +18,10 @@ function App() {
       <TopSection />
       <AboutSection />
       <SliderCenterSection />
-      {/*<AccordionSection />
+      <AccordionSection />
       <Products />
       <VideoSection />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }
