@@ -33,6 +33,7 @@ const TopSection = () => {
           onNextSlide={handleNext}
           onPrevSlide={handlePrev}
           className="hover:fill-accent transition-color duration-[250ms]"
+          type="secondary"
         />
       </div>
     </div>

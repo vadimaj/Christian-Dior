@@ -7,12 +7,9 @@ const Button = ({ children, type }) => {
   const styles = {
     primary: basicStyles + ' w-auto',
     secondary: basicStyles + ' px-[2.5em]',
-    centerSliderSection:
-      basicStyles +
-      ' w-[387px] md: w-[290px] lg:ml-[calc((100%_-_100px)/6_+_20px)]',
+    centerSliderSection: basicStyles,
   };
-  //' w-[180px] self-center sm:w-[240px] sm:ml-auto';
-  //md:text-base md:h-[60px] h-[48px]
+
   return (
     <a className={styles[type]} href="#">
       {children}
