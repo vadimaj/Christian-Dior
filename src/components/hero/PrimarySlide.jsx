@@ -1,4 +1,5 @@
 import image01 from '../../assets/images/slider-top/slide-top01.jpg';
+
 import mainSlideMob from '../../assets/images/slider-top/slide_main-mob.jpg';
 import mainSlide from '../../assets/images/slider-top/slide_main.jpg';
 import Button from '../../ui/Button';
