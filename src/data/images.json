@@ -1,44 +1,44 @@
 [
   {
-    "url": "/Christian-Dior/src/assets/images/slider-center/discover01.jpg",
-    "url_tab": "/Christian-Dior/src/assets/images/slider-center/discover01-tab.jpg",
-    "url_tab_small": "/Christian-Dior/src/assets/images/slider-center/discover01-tab-small.jpg",
+    "url": "/Christian-Dior/images/slider-center/discover01.jpg",
+    "url_tab": "/Christian-Dior/images/slider-center/discover01-tab.jpg",
+    "url_tab_small": "/Christian-Dior/images/slider-center/discover01-tab-small.jpg",
     "title": "DISCOVER GRIS DIOR",
     "id": 1099
   },
 
   {
-    "url": "/Christian-Dior/src/assets/images/slider-center/dare_to_risk.jpg",
-    "url_tab": "/Christian-Dior/src/assets/images/slider-center/dare_to_risk-tab.jpg",
-    "url_tab_small": "/Christian-Dior/src/assets/images/slider-center/dare_to_risk-tab-small.jpg",
+    "url": "/Christian-Dior/images/slider-center/dare_to_risk.jpg",
+    "url_tab": "/Christian-Dior/images/slider-center/dare_to_risk-tab.jpg",
+    "url_tab_small": "/Christian-Dior/images/slider-center/dare_to_risk-tab-small.jpg",
     "title": "DARE TO RISK IT",
     "id": 1100
   },
   {
-    "url": "/Christian-Dior/src/assets/images/slider-center/flavour.jpg",
-    "url_tab": "/Christian-Dior/src/assets/images/slider-center/flavour-tab.jpg",
-    "url_tab_small": "/Christian-Dior/src/assets/images/slider-center/flavour-tab-small.jpg",
+    "url": "/Christian-Dior/images/slider-center/flavour.jpg",
+    "url_tab": "/Christian-Dior/images/slider-center/flavour-tab.jpg",
+    "url_tab_small": "/Christian-Dior/images/slider-center/flavour-tab-small.jpg",
     "title": "FEEL THE FLAVOUR",
     "id": 1101
   },
   {
-    "url": "/Christian-Dior/src/assets/images/slider-center/discover02.jpg",
-    "url_tab": "/Christian-Dior/src/assets/images/slider-center/discover02-tab.jpg",
-    "url_tab_small": "/Christian-Dior/src/assets/images/slider-center/discover02-tab-small.jpg",
+    "url": "/Christian-Dior/images/slider-center/discover02.jpg",
+    "url_tab": "/Christian-Dior/images/slider-center/discover02-tab.jpg",
+    "url_tab_small": "/Christian-Dior/images/slider-center/discover02-tab-small.jpg",
     "title": "DISCOVER GRIS DIOR",
     "id": 1102
   },
   {
-    "url": "/Christian-Dior/src/assets/images/slider-center/discover02.jpg",
-    "url_tab": "/Christian-Dior/src/assets/images/slider-center/discover02-tab.jpg",
-    "url_tab_small": "/Christian-Dior/src/assets/images/slider-center/discover02-tab-small.jpg",
+    "url": "/Christian-Dior/images/slider-center/discover02.jpg",
+    "url_tab": "/Christian-Dior/images/slider-center/discover02-tab.jpg",
+    "url_tab_small": "/Christian-Dior/images/slider-center/discover02-tab-small.jpg",
     "title": "DISCOVER GRIS DIOR",
     "id": 1103
   },
   {
-    "url": "/Christian-Dior/src/assets/images/slider-center/discover02.jpg",
-    "url_tab": "/Christian-Dior/src/assets/images/slider-center/discover02-tab.jpg",
-    "url_tab_small": "/Christian-Dior/src/assets/images/slider-center/discover02-tab-small.jpg",
+    "url": "/Christian-Dior/images/slider-center/discover02.jpg",
+    "url_tab": "/Christian-Dior/images/slider-center/discover02-tab.jpg",
+    "url_tab_small": "/Christian-Dior/images/slider-center/discover02-tab-small.jpg",
     "title": "DISCOVER GRIS DIOR",
     "id": 1104
   }

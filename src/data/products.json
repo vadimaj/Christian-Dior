@@ -1,6 +1,6 @@
 [
   {
-    "url": "/Christian-Dior/src/assets/images/products/body_lotion.jpg",
+    "url": "/Christian-Dior/images/products/body_lotion.jpg",
     "title": "01 INITIATE THE OLFACTORY RITUAL",
     "id": 2099,
     "productSeries": "Gris Dior",
@@ -9,7 +9,7 @@
   },
 
   {
-    "url": "/Christian-Dior/src/assets/images/products/eau_de_parfum.jpg",
+    "url": "/Christian-Dior/images/products/eau_de_parfum.jpg",
     "title": "02 CONTINUE THE RITUAL",
     "id": 2100,
     "productSeries": "Gris Dior",
@@ -17,7 +17,7 @@
     "price": "265"
   },
   {
-    "url": "/Christian-Dior/src/assets/images/products/hair_perfume.jpg",
+    "url": "/Christian-Dior/images/products/hair_perfume.jpg",
     "title": "03 ADD THE FINISHING TOUCH",
     "id": 2101,
     "productSeries": "Gris Dior",
